@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: InterBlack;
+  src: url("../public/font/InterBlack.ttf");
+}
+@font-face {
+  font-family: InterBold;
+  src: url("../public/font/InterBold.ttf");
+}
+@font-face {
+  font-family: InterMedium;
+  src: url("../public/font/InterMedium.ttf");
+}
+@font-face {
+  font-family: InterRegular;
+  src: url("../public/font/InterRegular.ttf");
+}
+
+@layer base {
+  body {
+    @apply dark:bg-[#161616] bg-[#ffffff] transition-all ease-in duration-200;
+  }
+}
+
+/* .marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+} */
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  /* will-change: transform; */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
