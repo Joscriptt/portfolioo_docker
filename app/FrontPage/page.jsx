@@ -2,12 +2,12 @@
 
 import Status from "@/app/Status/page";
 
-import { motion } from "framer-motion";
-
 import React, { useState } from "react";
 import Link from "next/link";
 import { PiLockThin } from "react-icons/pi";
 import Image from "next/image";
+
+import { motion } from "framer-motion";
 
 const projects = [
   {
@@ -67,8 +67,6 @@ let link = [
 
 function Frpage() {
   const [show, setShow] = useState(link[0]);
-
-  // console.log(show);
 
   return (
     <div className="mt-32">

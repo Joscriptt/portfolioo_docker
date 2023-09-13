@@ -1,11 +1,10 @@
 "use client";
 
 import React, { useState } from "react";
-
 import { TbArrowBackUp } from "react-icons/tb";
 import { PiLockThin } from "react-icons/pi";
-import { motion } from "framer-motion";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 let link = [
   {
